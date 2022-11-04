@@ -185,16 +185,7 @@ section .title::after {
 .scroll-up-btn:hover {
   filter: brightness(90%);
 }
-/* #photo{
-  margin-left: 250px;
-  height: 600px;
-  width: 39%;
-  background-color: #ca0951;
-} */
 
-/* home section styling */
-/* bgc considered */
-/* https://images.pexels.com/photos/168766/pexels-photo-168766.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 */
 .home {
   display: flex;
   background: url("https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?cs=srgb&dl=pexels-daniel-putzer-633409.jpg&fm=jpg") no-repeat center;
@@ -252,19 +243,7 @@ section .title::after {
 /* about section styling */
 .about{
 
-/*  
- background-image: url("");
- background-size: cover;
-  background-attachment: fixed;
-  background-color: #fff;
-opacity: 0.4; */
 
-/* background-image:  radial-gradient(#ca0951 0.5px, transparent 0.5px), radial-gradient(#ca0951 0.5px, #fff 0.5px);
-background-size: 20px 20px;
-background-position: 0 0,10px 10px; */
-
-/* background-color: #fff;
-opacity: 0.3; */
 background-image: radial-gradient(#ca0951 0.5px, #fff 0.5px);
 background-size: 10px 10px;
 
