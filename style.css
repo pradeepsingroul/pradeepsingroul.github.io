@@ -1,9 +1,7 @@
 /*  import google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 
-body{
-  background-color: #220241;
-}
+
 
 * {
   margin: 0;
@@ -435,8 +433,7 @@ background-size: 10px 10px;
   height: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  position: relative;
-  left: 75px;
+  
 }
 .skills .skills-content .left .text {
   font-size: 20px;
