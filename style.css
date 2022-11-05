@@ -188,7 +188,7 @@ section .title::after {
 
 .home {
   display: flex;
-  background: url("https://i.pinimg.com/originals/e7/81/95/e7819552f35513bd91c421487bf470bc.jpg") no-repeat center;
+  background: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80") no-repeat center;
   background-color: #111;
   height: 100vh;
   color: #fff;
