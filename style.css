@@ -113,13 +113,13 @@ section .title::after {
 
 
 .navbar .logo a {
-  color: #fff;
+  color: rgb(255, 254, 254);
   font-size: 35px;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
 }
 .navbar .logo a span {
-  color: #edbe14;
+  color: #e5b817;
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -131,8 +131,8 @@ section .title::after {
 }
 .navbar .menu li a {
   display: block;
-  color: rgb(217, 186, 32);
-  font-size: 18px;
+  color: rgb(255, 196, 0);
+  font-size: 22px;
   font-weight: 500;
   margin-left: 25px;
   transition: color 0.3s ease;
@@ -156,7 +156,10 @@ section .title::after {
   font-size: 23px;
   cursor: pointer;
   display: none;
-  color: rgb(237, 200, 15);
+  color: rgb(211, 207, 207);
+}
+.menu-btn :hover{
+color: white;
 }
 .scroll-up-btn {
   position: fixed;
@@ -188,7 +191,7 @@ section .title::after {
 
 .home {
   display: flex;
-  background: url("https://i.pinimg.com/originals/64/51/dd/6451ddd138554e83483a505798b2e457.jpg") no-repeat center;
+  background: url("https://images.unsplash.com/photo-1619972898592-5de4b1c68025?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmxhY2slMjBkZXNrfGVufDB8fDB8fA%3D%3D&w=1000&q=80") no-repeat center;
   background-color: #111;
   height: 100vh;
   color: #fff;
@@ -313,7 +316,7 @@ background-size: 10px 10px;
 }
 .services .title::after,
 .project .title::after {
-  background: rgb(44, 43, 41);
+  background: rgb(61, 54, 42);
   content: "what i provide";
 }
 .services .serv-content .card {
@@ -327,7 +330,8 @@ background-size: 10px 10px;
 }
 .services .serv-content .card:hover {
   /* background: crimson; */
-  color: #555;
+  color: rgb(5, 5, 5);
+  background-color: #e7ca25;
   /* change*/
 }
 .services .serv-content .card .box {
@@ -335,10 +339,12 @@ background-size: 10px 10px;
 }
 .services .serv-content .card:hover .box {
   transform: scale(1.05);
+  
 }
 .services .serv-content .card i {
   font-size: 50px;
   color: #fab938;
+ 
   transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i {
@@ -486,7 +492,7 @@ background-size: 10px 10px;
   content: "see my work";
 }
 .project .carousel .card {
-  background: rgb(234, 233, 233);
+  background: rgb(255, 255, 255);
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
@@ -495,8 +501,9 @@ background-size: 10px 10px;
 }
 .project .carousel .card:hover {
   /* background: rgb(112, 89, 94); */
-  color: #000;
+ 
   color: rgb(0, 0, 0);
+  background-color: #e7ca25;
   /* change */
 }
 .project .carousel .card .box {
@@ -531,14 +538,15 @@ background-size: 10px 10px;
   justify-content: center;
   align-items: center;
   border-radius: 10%;
-  box-shadow: rgb(121, 120, 120) 0px 5px 15px;
+  box-shadow: rgb(255, 255, 255) 0px 5px 15px;
 }
 
 .demo-div {
   display: flex;
   width: 35%;
+  
   border-radius: 10%;
-  box-shadow: rgb(121, 120, 120) 0px 5px 15px;
+  box-shadow: rgb(255, 255, 255) 0px 5px 15px;
   border: 1px solid rgb(0, 0, 0);
   justify-content: center;
   align-items: center;
@@ -566,7 +574,7 @@ background-size: 10px 10px;
 }
 .project .carousel .card:hover img {
   border-color: #fff;
-  color: white;
+  color: rgb(152, 152, 152);
 }
 .owl-dots {
   text-align: center;
