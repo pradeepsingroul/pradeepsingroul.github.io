@@ -731,6 +731,7 @@ footer span a:hover {
     height: 350px;
     width: 350px;
   }
+  
 }
 
 @media (max-width: 991px) {
@@ -804,6 +805,10 @@ footer span a:hover {
 }
 
 @media (max-width: 690px) {
+   .photo{
+   border: 1px red solid;
+  }
+  
   .max-width {
     padding: 0 23px;
   }
@@ -822,6 +827,24 @@ footer span a:hover {
 }
 
 @media (max-width: 500px) {
+  .skills-images{
+    
+  }
+  .photo{
+    border: 1px red solid;
+    margin-left: -10px;
+    display: flex;
+   justify-content: center;
+   }
+  #photo{
+    text-align: center;
+  }
+  .menu.active{
+    width: 375px;
+  }
+  .navbar{
+    width: 375px;
+  }
   .home .home-content .text-2 {
     font-size: 50px;
   }
