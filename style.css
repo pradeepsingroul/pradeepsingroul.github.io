@@ -827,9 +827,9 @@ footer span a:hover {
 }
 
 @media (max-width: 500px) {
-  .skills-images{
+  /* .skills-images{
     
-  }
+  } */
   .photo{
     border: 1px red solid;
     margin-left: -10px;
@@ -872,6 +872,9 @@ footer span a:hover {
     width: 35px;
     font-size: 23px;
     line-height: 38px;
+  }
+  .services .serv-content .card {
+    width: 100%;
   }
 }
 
