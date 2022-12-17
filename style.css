@@ -10,7 +10,7 @@ java{
     scroll-behavior: smooth;
 }
 body{
-    background-color:rgba(13, 2, 36, 0.911);;
+    background-color:rgba(10, 10, 32, 0.911);;
 }
 
 
@@ -101,19 +101,23 @@ section{
 }
 .max-width2{
    
-    width: 600px;
+    /* border: 1px red solid; */
+    padding: 50px;
+    width: 700px;
     padding-top: 102px;
     margin: auto;
 }
 .max-width3{
-   
+    margin-left: 50px;
     max-width: 500px;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-right: 115px;
+    width: 370px;
 }
 .photo{
     height:  110%;
     width: 100%;
+    
     margin-top: -30px ;
     border-radius: 20%;
 }
@@ -123,6 +127,8 @@ section{
     /* box-shadow:   rgb(253, 1, 1) 0px 2px 4px -1px; */
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     margin-top: 20px;
+
+    
     
 
 }
@@ -190,7 +196,8 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background-color: rgba(13, 2, 36, 0.911);
+    height: 65px;
+    background-color: rgba(0, 0, 0, 0.945);
 }
 .navbar .max-width{
     display: flex;
@@ -211,14 +218,22 @@ section .title::after{
 .navbar.sticky .logo a span{
     color: rgba(169, 169, 169, 0.938);
 }
+.menu{
+  
+    margin: auto;
+   
+}
 .navbar .menu li{
+    margin: auto;
     list-style: none;
     display: inline-block;
+
 }
 .navbar .menu li a{
+
     display: block;
     /* color: red; */
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
@@ -273,7 +288,7 @@ section .title::after{
 
 /* home section styling */
 .home{
-    box-shadow:  0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    box-shadow: rgb(83, 122, 138) 0px 20px 30px -10px;
     display: flex;
     background: url("images/back.jfif") no-repeat center;
     height: 100vh;
@@ -287,6 +302,7 @@ section .title::after{
 .home .max-width{
   width: 100%;
   display: flex;
+ 
 }
 .home .max-width .row{
   margin-right: 0;
@@ -332,7 +348,11 @@ section .title::after{
 
 
 /* about section styling */
-
+#about{
+     box-shadow: rgb(83, 122, 138) 0px 20px 30px -10px;
+    margin-top: 20px;
+    border: 1px red solid;
+}
 .about .about-content .left{
     width: 45%;
 }
@@ -423,13 +443,14 @@ section .title::after{
 
 .services .serv-content .card{
     width: 100%;
-
+     box-shadow: rgb(83, 122, 138) 0px 20px 30px -10px;
 }
 .services .serv-content .card .box{
     width:auto;
     height: auto;
     display: flex;
     align-items: center;
+    
     
 
 }
@@ -458,10 +479,14 @@ section .title::after{
 
 /* skills section styling */
 .skills{
+    /* margin-top: 50px; */
     border: 1px red solid;
-    width: 85%;
+    width: 76%;
+    padding: 40px 0px 0px 0px ;
+    /* text-align: center; */
     margin: auto;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+     box-shadow: rgb(83, 122, 138) 0px 20px 30px -10px;
 }
 
 .skills .skills-content .column{
@@ -540,6 +565,7 @@ section .title::after{
 /* teams section styling */
 
 .teams .carousel .card{
+     box-shadow: rgb(83, 122, 138) 0px 20px 30px -10px;
     color: black;
     background: rgb(255, 255, 255);
     border-radius: 6px;
@@ -549,6 +575,9 @@ section .title::after{
     transition: all 0.3s ease;
     border: 1px red solid;
 
+}
+#cardedu{
+    box-shadow: rgb(91, 143, 163) 0px 20px 30px -10px;
 }
 .teams .carousel .card:hover{
     background: rgb(151, 152, 154);
@@ -602,6 +631,10 @@ section .title::after{
 }
 
 /* contact section styling */
+#contact{
+   
+    box-shadow: rgb(91, 143, 163) 0px 20px 30px -10px;
+}
 
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -922,28 +955,34 @@ footer span a:hover{
     font-size: 20px;
 }
 
+.github-st{
+   border: 1px red solid; 
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
 
 
 #github-stats {
-    padding: 100px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     margin-top: -10%;
     margin-bottom: -100px;
-    border: 1px red solid;
-    width: 85%;
+    /* border: 1px red solid; */
+    width: 76%;
     margin: auto;
     
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
    
   }
 
   .github-stats-list {
-    /* display: grid; */
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    margin-top: 50px;
-    grid-gap: 40px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-top:50px;
+    grid-gap: 20px;
+    /* box-shadow: rgb(255, 2, 2) 0px 20px 30px -10px; */
   }
-  
+ 
   
   .github-stat {
     border-radius: 10px;
@@ -955,13 +994,13 @@ footer span a:hover{
     margin-top: 10px;
     width: 100%;
     height: 300px;
-    
+     box-shadow: rgb(83, 122, 138) 0px 20px 30px -10px;
   }
   
   
   .github-stat img {
     width: 100%;
-    padding: 10px;
+  
     height: 300px;
     border-radius: 10px;
     display: block;
@@ -984,14 +1023,14 @@ footer span a:hover{
   
   @media (max-width: 690px) {
   
-  .github-stat {
+  /* .github-stat {
     width: 300px;
     font-size: 8px;
-  }
+  } */
   
   .github-stat {
   width: 100%;
-  font-size: 8px;
+  font-size: 10px;
   }
   .container{
   text-align: center;
@@ -1031,12 +1070,12 @@ footer span a:hover{
     margin-top: 20px;
   }
   
-  .github-stats-list {
+  /* .github-stats-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     margin-top: 50px;
     grid-gap: 40px;
-  }
+  } */
   }
 
 
@@ -1072,7 +1111,7 @@ footer span a:hover{
   /* #skill{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    width: 95%;
+    width: 76%;
    
     margin-left: 2%;
     background-color: pink;
@@ -1124,9 +1163,10 @@ footer span a:hover{
   }
   
   .tech-card {
+    /* box-shadow: rgb(253, 0, 0) 0px 20px 30px -10px; */
     height: auto;
     width: 180px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -1148,6 +1188,7 @@ footer span a:hover{
     /* border: 1px solid black; */
     padding: 10px;
   }
+  
   
   .tech-card-logo>img {
     width: 100%;
