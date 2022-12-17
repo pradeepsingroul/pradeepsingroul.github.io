@@ -332,9 +332,7 @@ section .title::after{
 
 
 /* about section styling */
-.about .title::after{
-    /* content: "who i am"; */
-}
+
 .about .about-content .left{
     width: 45%;
 }
@@ -465,9 +463,7 @@ section .title::after{
     margin: auto;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
-.skills .title::after{
-    /* content: "what i know"; */
-}
+
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
@@ -542,9 +538,7 @@ section .title::after{
 }
 
 /* teams section styling */
-.teams .title::after{
-    /* content: "who with me"; */
-}
+
 .teams .carousel .card{
     color: black;
     background: rgb(255, 255, 255);
@@ -608,9 +602,7 @@ section .title::after{
 }
 
 /* contact section styling */
-.contact .title::after{
-    /* content: "get in touch"; */
-}
+
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -985,9 +977,7 @@ footer span a:hover{
   text-align: center;
   }
   
-  .github-st .title::after {
-  /* content: "see my work"; */
-  }
+
   .github-stat:hover img {
     transform: scale(1.02);
   }
