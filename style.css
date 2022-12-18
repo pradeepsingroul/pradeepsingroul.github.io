@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
 java{
     scroll-behavior: smooth;
@@ -116,8 +118,8 @@ section{
 }
 .photo{
     height:  110%;
-    width: 100%;
-    
+    width: 105%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     margin-top: -30px ;
     border-radius: 20%;
 }
@@ -132,10 +134,39 @@ section{
     
 
 }
+#links{
+
+    
+    height: 350px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgb(116, 139, 163) 0px 20px 30px -10px;
+}
+#links > div{
+    display: flex;
+    
+    height: 15%;
+    width: 100%;
+    margin-bottom: 7px;
+}
+#links > div >a > img{
+    height: 100%;
+    width: 250px;
+    padding: 7px;
+    background-color: rgb(255, 255, 255);
+   
+    
+}
+#links > div:hover{
+    height: 16%;
+    background-color: teal;
+}
 
 #aboutpart{
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
@@ -197,7 +228,8 @@ section .title::after{
 .navbar.sticky{
     padding: 15px 0;
     height: 65px;
-    background-color: rgba(0, 0, 0, 0.945);
+    /* background-color:rgba(34, 34, 62, 0.911);; */
+    background-color: rgb(29, 38, 55);
 }
 .navbar .max-width{
     display: flex;
@@ -304,6 +336,10 @@ section .title::after{
   display: flex;
  
 }
+.home-content{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 20px;
+}
 .home .max-width .row{
   margin-right: 0;
 }
@@ -355,6 +391,7 @@ section .title::after{
 }
 .about .about-content .left{
     width: 45%;
+   
 }
 #aboutpic{
     
@@ -369,7 +406,7 @@ section .title::after{
     border-radius: 6px;
 }
 .about .about-content .right{
-    width: 55%;
+    width: 65%;
 }
 .about .about-content .right .text{
     font-size: 25px;
