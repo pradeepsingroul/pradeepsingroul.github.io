@@ -18,9 +18,9 @@ times.addEventListener('click',function(){
 function sendEmail(){
     Email.send({
         Host : "smtp.elasticemail.com",
-        Username : "vinay3000111@gmail.com",
-        Password : "7186272595B8F8315A0E52829E7207630A34",
-        To : 'vinay3000111@gmail.com',
+        Username : "pradeep.aiyuga@gmail.com",
+        Password : "pradeep9340724066",
+        To : 'pradeep.aiyuga@gmail.com',
         From : document.querySelector("#email").value,
         Subject : "New Contact from Portfolio",
         Body : "Name: "+document.querySelector("#f_name").value+" "+document.querySelector("#l_name").value
