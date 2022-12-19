@@ -341,7 +341,7 @@ section .title::after{
  
 }
 .home-content{
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(157, 173, 191) 0px 20px 30px -10px;
     padding: 20px;
 }
 .home .max-width .row{
@@ -486,7 +486,7 @@ section .title::after{
 
 .services .serv-content .card{
     width: 100%;
-     box-shadow: rgb(83, 122, 138) 0px 20px 30px -10px;
+    box-shadow: rgb(157, 173, 191) 0px 20px 30px -10px;
 }
 .services .serv-content .card .box{
     width:auto;
@@ -530,7 +530,7 @@ section .title::after{
     /* text-align: center; */
     margin: auto;
     /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
-     box-shadow: rgb(83, 122, 138) 0px 20px 30px -10px;
+    box-shadow: rgb(157, 173, 191) 0px 20px 30px -10px;
 }
 
 .skills .skills-content .column{
@@ -610,7 +610,7 @@ section .title::after{
 /* teams section styling */
 
 .teams .carousel .card{
-     box-shadow: rgb(83, 122, 138) 0px 20px 30px -10px;
+    box-shadow: rgb(157, 173, 191) 0px 20px 30px -10px;
     color: black;
     background: rgb(255, 255, 255);
     border-radius: 6px;
@@ -623,7 +623,7 @@ section .title::after{
 
 }
 #cardedu{
-    box-shadow: rgb(91, 143, 163) 0px 20px 30px -10px;
+    box-shadow: rgb(157, 173, 191) 0px 20px 30px -10px;
 }
 .teams .carousel .card:hover{
     background: rgb(151, 152, 154);
@@ -678,7 +678,7 @@ section .title::after{
 
 /* contact section styling */
 #contact{
-    box-shadow: rgb(91, 143, 163) 0px 20px 30px -10px;
+    box-shadow: rgb(157, 173, 191) 0px 20px 30px -10px;
 }
 
 .contact .contact-content .column{
@@ -686,7 +686,7 @@ section .title::after{
     /* body */
     /* border: 1px red solid; */
     padding: 15px;
-    box-shadow: rgb(83, 122, 138) 0px 20px 30px -10px;
+    box-shadow: rgb(157, 173, 191) 0px 20px 30px -10px;
     
 }
 .contact .contact-content .text{
@@ -1045,7 +1045,7 @@ footer span a:hover{
     justify-content: center;
     border: 1px rgb(25, 174, 11) solid;
     margin-top: 10px;
-    box-shadow: rgb(83, 122, 138) 0px 20px 30px -10px;
+    box-shadow: rgb(157, 173, 191) 0px 20px 30px -10px;
   }
   /* .gitCcontainer{
     border-radius: 10px;
@@ -1317,7 +1317,7 @@ font-size: 20px;
         padding: 10px;
         height: 500px;
         font-size: 18px;
-        box-shadow: rgb(83, 122, 138) 0px 20px 30px -10px;
+        box-shadow: rgb(157, 173, 191) 0px 20px 30px -10px;
     }
     
 
