@@ -501,7 +501,8 @@ section .title::after{
 
 .services .serv-content .card{
     width: 100%;
-    box-shadow: rgb(157, 173, 191) 0px 20px 30px -10px;
+    box-shadow: rgb(164, 199, 238) 0px 20px 30px -10px;
+    
 }
 .services .serv-content .card .box{
     width:auto;
@@ -514,7 +515,7 @@ section .title::after{
 }
 .services .serv-content .card:hover{
     background: rgb(139, 143, 138);
-    transform: scale(1.02);
+    transform: scale(1.05);
 }
 
 
@@ -523,7 +524,7 @@ section .title::after{
 } */
 .services .serv-content .card i{
     font-size: 50px;
-    color: rgb(37, 70, 103);
+    color: rgb(65, 72, 155);
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
