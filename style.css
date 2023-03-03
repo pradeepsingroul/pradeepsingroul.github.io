@@ -119,7 +119,7 @@ section{
 }
 .photo{
     height:  110%;
-    width: 105%;
+    width: 109%;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     margin-top: -30px ;
     border-radius: 20%;
@@ -141,10 +141,10 @@ section{
 }
 #ab{
    margin: auto;
-   padding: 10px;
+   padding: 25px;
    width: 76%;
-   
-    box-shadow: rgb(170, 186, 203) 0px 20px 30px -10px;
+   border-radius: 15px;
+   box-shadow: rgb(170, 186, 203) 0px 20px 30px -10px;
 
 }
 .rjm{
@@ -288,7 +288,7 @@ section .title::after{
 }
 .navbar .menu li a:hover{
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -301,7 +301,7 @@ section .title::after{
     font-size: 23px;
     cursor: pointer;
     display: none;
-    color:rgb(255, 255, 255);
+    color:rgb(156, 156, 151);
 }
 .prjct{
     color: red;
@@ -338,6 +338,7 @@ section .title::after{
 .home{
     box-shadow: rgb(83, 122, 138) 0px 20px 30px -10px;
     display: flex;
+    border-radius: 50px;
     background: url("images/back.jfif") no-repeat center;
     height: 100vh;
     color: rgba(124, 21, 202, 0.952);
@@ -355,6 +356,7 @@ section .title::after{
 .home-content{
     box-shadow: rgb(157, 173, 191) 0px 20px 30px -10px;
     padding: 20px;
+    
 }
 .home .max-width .row{
   margin-right: 0;
@@ -363,6 +365,7 @@ section .title::after{
 .home .home-content .text-1{
     font-size: 27px;
     color: rgb(255, 255, 255);
+    border-radius: 15px;
 }
 .home .home-content .text-2{
     font-size: 65px;

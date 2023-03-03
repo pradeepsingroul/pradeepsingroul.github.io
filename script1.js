@@ -14,7 +14,7 @@ times.addEventListener('click',function(){
 
     mobileNav.classList.remove("open");
 })
-// document.querySelector("#form").addEventListener("submit",sendEmail());
+
 function sendEmail(){
     Email.send({
         Host : "smtp.elasticemail.com",
