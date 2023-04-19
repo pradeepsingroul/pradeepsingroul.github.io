@@ -3,16 +3,18 @@
 *{
     margin: 0;
     padding: 0;
+    
     box-sizing: border-box;
     text-decoration: none;
     
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
+
 java{
     scroll-behavior: smooth;
 }
 body{
-    background-color:rgba(16, 22, 50, 0.911);;
+    background-color:rgba(11, 5, 42, 0.911);;
 }
 
 
